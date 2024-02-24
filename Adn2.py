@@ -86,7 +86,7 @@ def is_valid_dna_sequence(sequence):
     return all(char.upper() in valid_characters for char in sequence)
 
 # Configuración de la página
-image = Image.open('imagen.jpg')
+image = Image.open('ADN.jpeg')
 st.image(image, use_column_width=True)
 st.markdown(" Nucleotidos**")
 
