@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import altair as alt
 from PIL import Image
-#from reportlab.pdfgen import canvas 
+from reportlab.pdfgen import canvas 
 from io import BytesIO 
 
 
